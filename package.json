@@ -1,0 +1,32 @@
+{
+	"name": "array.prototype.join",
+	"version": "0.0.0",
+	"description": "ES spec-compliant `Array.prototype.join` shim/polyfill/replacement that works as far down as ES3",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/Array.prototype.join.git"
+	},
+	"keywords": [
+		"ecmascript",
+		"javascript",
+		"shim",
+		"polyfill",
+		"es-shim API",
+		"Array",
+		"join"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/Array.prototype.join/issues"
+	},
+	"homepage": "https://github.com/es-shims/Array.prototype.join#readme"
+}
