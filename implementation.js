@@ -1,9 +1,9 @@
 'use strict';
 
-var Get = require('es-abstract/2022/Get');
-var LengthOfArrayLike = require('es-abstract/2022/LengthOfArrayLike');
-var ToObject = require('es-abstract/2022/ToObject');
-var ToString = require('es-abstract/2022/ToString');
+var Get = require('es-abstract/2023/Get');
+var LengthOfArrayLike = require('es-abstract/2023/LengthOfArrayLike');
+var ToObject = require('es-abstract/2023/ToObject');
+var ToString = require('es-abstract/2023/ToString');
 
 var callBound = require('call-bind/callBound');
 
