@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/Array.prototype.join/compare/v1.0.2...v1.0.3) - 2024-03-18
+
+### Commits
+
+- [actions] remove redundant finisher [`83b6201`](https://github.com/es-shims/Array.prototype.join/commit/83b62013a6f439f263309a86dbe7ac3f926aed4c)
+- [Refactor] use `es-object-atoms` where possible; update `call-bind`, `es-abstract` [`8254f11`](https://github.com/es-shims/Array.prototype.join/commit/8254f1101becd129576d2717c8eaa53554f8ca83)
+- [Deps] update `call-bind`, `define-properties`, `es-abstract` [`0fbf62e`](https://github.com/es-shims/Array.prototype.join/commit/0fbf62e8f381ac77d9387df4cc8a3dcdb648fa57)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`b367489`](https://github.com/es-shims/Array.prototype.join/commit/b3674899f06b4534f9d174b66056e9b568eea113)
+- [Dev Deps] update `tape` [`84f05e8`](https://github.com/es-shims/Array.prototype.join/commit/84f05e8a82193388c0b1a12c0fc9a522027e7641)
+
 ## [v1.0.2](https://github.com/es-shims/Array.prototype.join/compare/v1.0.1...v1.0.2) - 2023-09-01
 
 ### Commits
