@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/Array.prototype.join/compare/v1.0.3...v1.0.4) - 2024-12-11
+
+### Commits
+
+- [actions] split out node 10-20, and 20+ [`53e9369`](https://github.com/es-shims/Array.prototype.join/commit/53e9369c8029dc3a9e863ae5479fe0c74be3f9c7)
+- [Robustness] cache `Array.prototype` [`b38cb97`](https://github.com/es-shims/Array.prototype.join/commit/b38cb977be69589dcb8ebc12220e22af2f2dc635)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `tape` [`7a1eb66`](https://github.com/es-shims/Array.prototype.join/commit/7a1eb66671bbd34a592d6596edf1f1f2103e897c)
+- [Refactor] use `call-bound` directly [`4b78a28`](https://github.com/es-shims/Array.prototype.join/commit/4b78a2826fb21202d8397a26a3cc15441e61e11f)
+- [Deps] update `call-bind`, `es-abstract`, `is-string` [`3ce63b3`](https://github.com/es-shims/Array.prototype.join/commit/3ce63b332c58f8885f97dd84e649c29aea62bad2)
+- [Tests] replace `aud` with `npm audit` [`c670c19`](https://github.com/es-shims/Array.prototype.join/commit/c670c19e623ee2fe9264c667ac8f3b8303aac59d)
+- [Dev Deps] add missing peer dep [`5538778`](https://github.com/es-shims/Array.prototype.join/commit/5538778e2681215418350b1f65bfbd99a1f27911)
+
 ## [v1.0.3](https://github.com/es-shims/Array.prototype.join/compare/v1.0.2...v1.0.3) - 2024-03-18
 
 ### Commits

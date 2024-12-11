@@ -1,6 +1,6 @@
 {
 	"name": "array.prototype.join",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "ES spec-compliant `Array.prototype.join` shim/polyfill/replacement that works as far down as ES3.",
 	"main": "index.js",
 	"exports": {
