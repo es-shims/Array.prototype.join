@@ -6,14 +6,16 @@ var isString = require('is-string');
 
 var implementation = require('./implementation');
 
+var $arrayProto = Array.prototype;
+
 module.exports = function getPolyfill() {
-	if (!Array.prototype.join) {
+	if (!$arrayProto.join) {
 		return implementation;
 	}
 
 	try {
-		Array.prototype.join.call(undefined, 'a');
-		Array.prototype.join.call(null, 'a');
+		$arrayProto.join.call(undefined, 'a');
+		$arrayProto.join.call(null, 'a');
 
 		return implementation; // IE 10-11
 	} catch (e) {
@@ -22,14 +24,14 @@ module.exports = function getPolyfill() {
 
 	var hasStringJoinBug;
 	try {
-		hasStringJoinBug = Array.prototype.join.call('123', ',') !== '1,2,3';
+		hasStringJoinBug = $arrayProto.join.call('123', ',') !== '1,2,3';
 	} catch (e) {
 		hasStringJoinBug = true;
 	}
 	var hasJoinUndefinedBug = [1, 2].join(undefined) !== '1,2';
 
 	if (hasStringJoinBug || hasJoinUndefinedBug) {
-		var $join = callBind(Array.prototype.join);
+		var $join = callBind($arrayProto.join);
 		/* eslint no-invalid-this: 1 */
 
 		if (hasStringJoinBug) {
@@ -47,5 +49,5 @@ module.exports = function getPolyfill() {
 		}
 	}
 
-	return Array.prototype.join;
+	return $arrayProto.join;
 };
